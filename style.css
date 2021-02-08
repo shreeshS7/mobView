@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem;
+  align-items: center;
+  background-color: rgba(1,1,1,0.2);
+  height: 1vh;
+  font-size: 2rem;
+}
+
+nav img{
+  height: 
+  50px;
+}
+article{
+  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+article img{
+  width: 80%;
+  border-radius: 2rem;
+}
+
+.add b{
+  background-color: blue;
+  position: fixed;
+  color: white;
+  bottom: 10px;
+  margin-left: 83%;
+  font-size: 1.4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+}
+
+.text p{
+  padding: 1rem;
+}
